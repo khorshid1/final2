@@ -1,0 +1,9 @@
+<h1>Song Detail</h1>
+
+<p>Title: <%= @song.name %></p>
+
+<p>Year Released: <%= @song.year_released %></p>
+
+<p>Artist: <%= @song.artist.name %></p>
+
+<h3><%= link_to "Take a quick Survey", new_song_survey_path(@song) %></h3>
