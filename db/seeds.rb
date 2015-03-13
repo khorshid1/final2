@@ -81,6 +81,6 @@ Answer.create(survey_id: survey_one.id, text: "Sad")
 #Answer.create(survey_id: survey_five.id, text: "No")
 
 
-User.create(name: "Brian", email: "b-eng@kellogg.northwestern.edu", password: "secret")
+User.create(name: "Khorshid", email: "krahmaninejad2015@kellogg.northwestern.edu", password: "secret")
 
 puts "There are now #{Artist.count} artists, #{Song.count} songs, #{Question.count} questions, #{Survey.count} surveys, #{Answer.count} answers, and #{User.count} users in the database."
